@@ -1,0 +1,529 @@
+@charset "utf-8";
+/*セミコロンを付け忘れると反応しなかったので注意！*/
+
+.big{font-size: 150%;}
+.bold{font-weight: bold;}
+.center{text-align: center;}
+.left{text-align: left;}
+.small{font-size: 80%}
+.underline{text-decoration: underline;}
+.white{color: #ffffff;}
+
+#myWrapper .ribbon5 {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    vertical-align: middle;
+    text-align: left;
+    padding: 7px 0;
+    font-size: 16px;/*文字サイズ*/
+    background: #ffff2d;/*背景色*/
+    color: #191919;/*文字色*/
+    box-sizing: border-box;
+}
+#myWrapper .ribbon5 h3 {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 30px 0 15px;
+    border-top: dashed 3px #ffffff;
+    border-bottom: dashed 3px #ffffff;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+#myWrapper .ribbon5:after{
+  position: absolute;
+  content: '';
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 0px;
+  height: 0px;
+  border-width: 38px 19px 38px 0;
+  border-color: transparent #ffffff transparent transparent;
+  border-style: solid;
+}
+
+/*myWrapperのテスト*/
+#myWrapper{
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align:justify;  
+}
+#myWrapper p{
+    text-indent: 1em;
+}
+
+#myWrapper p.election{
+    font-size: 80%;
+    margin-top: 0;
+    padding: 0px 5px 0px 3px;
+}
+
+/*myWrapperのテスト終わり*/
+#myWrapper a {
+    color : #0044CC ;
+    text-decoration: underline ;
+}
+
+#myWrapper a:visited {
+    color : #800080 ;
+    opacity : 0.95 ;
+}
+#myWrapper a:hover {
+    color : #ff2d2d ;
+    text-decoration : none;
+}
+article {
+    margin : 30px 0px ;
+}
+  
+
+#myWrapper h1.title {
+    /*div.article-body-outer div.article-bodyはライブドアに反映させるためのもの*/
+    background-color: #c6ff8e ;
+    padding : 10px 5px 3px 10px ;
+    border-left : solid 3px #33ff33 ;
+    /*値を1つ[上下左右],2つ[上下][左右],3つ[上][左右][下],4つ[上][右][下][左]が指定される。*/
+    font-size: 32px ;
+    border-bottom : solid 5px #33ff33 ;
+}
+#myWrapper h2.desc {
+    background-color : #e8e8e8 ;
+    border-bottom: 3px solid #7f7f7f ;
+    clear: both ;
+    border-left : solid 3px #33ff33 ;
+    padding : 8px 5px 3px 10px ;
+    font-size : 24px ;
+
+}
+#myWrapper h3 {
+    background-color: #ffffb2;
+    font-size: 18px;
+}
+br.pc {display: none;}
+br.sp {display: block;}
+
+dl dd{
+    margin-left: 2px ;
+}
+dl dd.setsumei {
+    margin-left: 2px ;
+}
+dl dt{
+    clear: both;
+}
+
+dl dd.description{
+    /*dlを付け忘れて苦労したので注意！！*/
+    padding: 5px 5px ;
+    background-color: #edffdb ;
+    margin: 5px 0px;
+    border-radius: 5px ;
+    line-height: 1.5em;
+    text-align: justify;
+    }
+figure.comic figcaption{
+    text-align: justify;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+}
+figure.comic{
+    width: 97%;
+    text-align: center;
+    line-height: 1.5em; 
+    display: block;
+    margin-bottom: 3em;
+    margin-top: 3em
+}
+
+figure.person4A {
+    width: 49%;
+    height: 460px;
+    float: left;
+    margin: 5px 0 ;
+    padding: 0 0 10px 2px;
+    clear: both;
+    border: solid 0.5px ;
+    box-sizing: border-box;
+}
+figure.person4B {
+    width: 49%;
+    height: 460px;
+    float: right;
+    margin: 5px 0;
+    padding: 0 0 10px 2px;
+    border: solid 0.5px;
+    box-sizing: border-box;
+    
+}
+figure.person4A figcaption {
+    text-align: left;
+}
+figure.person4B figcaption {
+    text-align: left;
+}
+figcaption{
+    text-align: center;
+}
+
+header,#global_navi,#sidebar,#wrapper {width: 100% ;}
+header h1 {
+    float: none ;
+    text-align : center ;
+}
+img.comic {
+    width: 100%;
+    height: auto;
+    text-align: center;    
+}
+img.person4{
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+input.question{
+    display: inline-block;
+    padding: 0.3em 0.5em;
+    margin: none;
+    text-decoration: none;
+    background: #c6ff8e;
+    border: none;
+    border-left: solid 3px #33ff33; /*左線*/
+    color: #000000;/*文字色*/
+    font-weight: bold;
+    box-shadow: none;
+}
+small.sp{font-size: 80%;}
+
+span.marker{
+    background: linear-gradient(transparent 60%, #fff799 60%);
+    font-weight: bold;
+}
+
+span.pc {display: none;}
+span.sp {display: inline;}
+span.smallSp{font-size:80%;}
+
+ul {padding-left: 30px;}
+ul li {
+    padding: 5px 0px 5px 0px;
+    margin: 0;
+}
+td a {
+    color : #0044CC ;
+    text-decoration: underline ;
+}
+
+td a:visited {
+    color : #800080 ;
+    opacity : 0.95 ;
+}
+th, td {
+    border: solid 1px #000000 ;
+    padding: 4px ;
+}
+th {
+    background-color: #e5ffcc ;
+    text-align: center ;
+    width: 4.2em ;
+}
+#authorList{
+        width: 100% ;
+        border-collapse: collapse ;
+    /*データごとの枠線を重ねるか分離するか、これは重ねている。*/
+        margin: 8px 0 ;
+        text-align: center;
+    }
+#authorList .authorCell{
+    font-size: 18px;
+    border-right: 1px dashed ;
+    box-sizing: border-box;
+    height: 60px;
+    padding: 2px;
+}
+#authorList .upperCell{
+    border-left: none;
+    border-bottom: 1px dashed ;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 30px;
+    padding: 1px;
+}
+#authorList .lowerCell{
+    border-top: none;
+    border-left: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 30px;
+    padding: 1px;   
+}
+#authorList col.author{
+    width: 30%;
+}
+#authorList col.work{
+    width: 70%;
+}
+#authorList tr:nth-child(4n), #authorList tr:nth-child(4n-1){
+    background-color: #e5ffcc;
+}
+
+@media screen and (min-width: 768px){
+
+    a {
+        color : #0044CC ;
+        text-decoration: underline ;
+    }
+
+    a:visited {
+        color : #800080 ;
+        opacity : 0.95 ;
+    }
+    a:hover {
+        color : #ff2d2d ;
+        text-decoration : none;
+    }
+    article {
+        margin : 30px 0px ;
+        font-size: 16px ;
+    }
+    br.pc {display: block;}
+    br.sp {display: none;}
+    div.ichiran {
+        border : solid 1px #424242 ;
+        background-color : #e5ffcc ;
+        margin : 20px 0px ;
+    }
+
+    div.ichiran a:visited {
+        color : #0044CC ;
+    }
+    /*初期値の青*/
+    div.ichiran a:hover {
+        color: #ff2d2d ;
+        text-decoration: underline;
+    }
+    /*hoverは最後に書かないと、visited等が優先されてしまい、色が変わらない！*/
+    dl{
+        clear: both;
+    }
+    dl dd.description{
+    /*dlを付け忘れて苦労したので注意！！*/
+        padding: 10px 3px ;
+        background-color: #edffdb ;
+        margin: 5px 5px 5px 20px;
+        border-radius: 15px ;
+    }
+    dl dt {
+        margin: 0px ;
+    }
+    figcaption{
+        text-align: center;
+        
+    }
+    figure.comic figcaption{
+        text-align: center;
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    figure.comic{
+        text-align: center;
+        line-height: 1.5em; 
+        display: block;        
+    }
+
+    figure.person4A {
+        width: 185px;
+        height: 530px;
+        float: left;
+        margin: 5px 0 ;
+        padding: 0 2px 0 0 ;
+        border: solid 1px #000000 ;
+        box-sizing: border-box;
+        line-height: 2em;
+        clear: none;
+
+    }
+    figure.person4B {
+        width: 185px;
+        height: 530px ;
+        float: left;
+        margin: 5px 0 ;
+        padding: 0 2px 0 0 ;
+        border: solid 1px #000000 ;
+        box-sizing: border-box;
+        line-height: 2em;
+    }
+    
+    figure.person4A figcaption ,figure.person4B figcaption {
+        text-align: center;
+        font-size: 95%;
+    }
+    
+
+
+    h1,h2,h3,h4,h5,h6 {
+        margin : 0 ;
+    /*背景の塗りつぶしにスペースが出来てるのはこれによるもの*/
+    }
+    h1 {
+        font-size : 30px ;
+    }
+    #myWrapper h1.title {
+    /*div.article-body-outer div.article-bodyはライブドアに反映させるためのもの*/
+        background-color: #c6ff8e ;
+        padding : 3px 5px 3px 10px ;
+        border-left : solid 3px #33ff33 ;
+    /*値を1つ[上下左右],2つ[上下][左右],3つ[上][左右][下],4つ[上][右][下][左]が指定される。*/
+        font-size: 32px ;
+        border-bottom : solid 5px #33ff33 ;
+    }
+    #myWrapper h2.desc {
+        background-color : #e8e8e8 ;
+        border-bottom: 3px solid #7f7f7f ;
+        clear: both ;
+        border-left : solid 3px #33ff33 ;
+        padding : 3px 5px 3px 10px ;
+        font-size : 24px ;
+
+    }
+    #myWrapper h3 {
+        background-color: #ffffb2;
+        font-size: 18px;
+    }
+    img.person4 {
+        width: 180px;
+        height: auto;
+        margin: 0;
+    }
+    img.comic{
+        width: 480px;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    span.pc {display: inline;}
+    span.sp {display: none;}
+    span.smallSp{font-size:100%;}
+    span.underline{
+        text-decoration: underline;
+    }
+    span.bold{
+        font-weight: bold;
+    }
+    span.big{
+        font-size: 150%;
+    }
+    /*
+    table a {
+        color : #0044CC ;
+        text-decoration: underline ;
+    }
+
+    table a:visited {
+        color : #800080 ;
+        opacity : 0.95 ;
+    }
+    table a:hover {
+        color : #ff2d2d ;
+        text-decoration : none;
+    }
+    table {
+      width: 100% ;
+      border-collapse: collapse ;
+    */
+    /*データごとの枠線を重ねるか分離するか、これは重ねている。*/
+    /*
+      margin: 8px 0 ;
+    }
+    th, td {
+      border: solid 1px #000000 ;
+      padding: 8px ;
+    }
+    th {
+      background-color: #e5ffcc ;
+      text-align: center ;
+      width: 8em ;
+    }
+    */
+    #author a {
+        color : #0044CC ;
+        text-decoration: underline ;
+    }
+
+    #author a:visited {
+        color : #800080 ;
+        opacity : 0.95 ;
+    }
+    #author a:hover {
+        color : #ff2d2d ;
+        text-decoration : none;
+    }
+    #author {
+      width: 100% ;
+      border-collapse: collapse ;
+    /*データごとの枠線を重ねるか分離するか、これは重ねている。*/
+      margin: 8px 0 ;
+    }
+    #author th, #author td {
+      border: solid 1px #000000 ;
+      padding: 8px ;
+    }
+    #author th {
+      background-color: #e5ffcc ;
+      text-align: center ;
+      width: 8em ;
+    }
+    #authorList{
+        width: 100% ;
+        border-collapse: collapse ;
+    /*データごとの枠線を重ねるか分離するか、これは重ねている。*/
+        margin: 8px 0 ;
+        text-align: center;
+        line-height: 1.5em;
+        border: solid 1px #000000;
+    }
+    #authorList .authorCell{
+        font-size: 18px;
+        border-right: 1px dashed ;
+        box-sizing: border-box;
+        height: 60px;
+        padding: 2px;
+    }
+    #authorList .upperCell{
+        border-left: none;
+        border-bottom: 1px dashed ;
+        font-size: 16px;
+        box-sizing: border-box;
+        height: 30px;
+        padding: 1px;
+    }
+    #authorList .lowerCell{
+        border-top: none;
+        border-left: none;
+        font-size: 16px;
+        box-sizing: border-box;
+        height: 30px;
+        padding: 1px;
+        
+    }
+    #authorList col.author{
+        width: 35%;
+    }
+    #authorList col.work{
+        width: 65%;
+    }
+    #authorList thead tr{
+        background-color: #e5ffcc;        
+    }
+    #authorList tr:nth-child(4n), #authorList tr:nth-child(4n-1){
+        background-color: #e5ffcc;
+    }
+}
